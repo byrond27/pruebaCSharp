@@ -18,6 +18,20 @@ namespace holaMundo
 		public int sumaDosNumeros(int a, int b){
 				return a + b;
 		}
+		
+		public int sumaDeNNumeros(int [] numeros){
+			var totalSuma = 0;
+			if(numeros.Length == 0)
+			{
+				return 0;
+			}
+			else{
+				for(int i = 0; i < numeros.Length;i++){
+					totalSuma = totalSuma + numeros[i];
+				}				
+			}
+			return totalSuma;
+		}
 
 	}
 }
