@@ -1,0 +1,7 @@
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\bin\Debug\holaMundo.exe.config
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\bin\Debug\holaMundo.exe
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\bin\Debug\holaMundo.pdb
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\obj\Debug\holaMundo.csprojResolveAssemblyReference.cache
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\obj\Debug\holaMundo.exe
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\obj\Debug\holaMundo.pdb
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\bin\Debug\NUnit.Framework.dll

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="12" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="58.33" branchCoverage="66.67" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="8E-49-BC-0C-F3-9C-C3-E0-7B-85-DE-FF-37-ED-EA-7B-27-B3-AF-06">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="37-80-BE-DC-A8-79-2C-78-4A-75-9F-D4-19-B1-3A-5A-48-3E-CA-03">
+      <FullName>C:\Program Files (x86)\SharpDevelop\5.1\bin\Tools\NUnit\nunit-console-x86.exe</FullName>
+      <ModuleName>nunit-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="33-E1-CA-24-52-5A-B7-C7-C4-AF-91-2C-A9-4A-C0-37-67-0D-5B-FE">
+      <FullName>C:\Program Files (x86)\SharpDevelop\5.1\bin\Tools\NUnit\lib\nunit.core.dll</FullName>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="2A-C4-E5-DE-F3-EE-AD-84-E1-65-84-CC-15-90-76-96-E7-01-44-4E">
+      <FullName>C:\Program Files (x86)\SharpDevelop\5.1\bin\Tools\NUnit\lib\nunit-console-runner.dll</FullName>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="74-74-F6-87-59-E1-5F-4F-5F-5E-6E-82-50-E8-E2-46-D4-86-15-76">
+      <FullName>C:\Program Files (x86)\SharpDevelop\5.1\bin\Tools\NUnit\lib\nunit.util.dll</FullName>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D3-A4-4D-85-55-F7-CE-EF-A5-90-AA-EF-58-E0-9F-B6-CC-27-99-53">
+      <FullName>C:\Program Files (x86)\SharpDevelop\5.1\bin\Tools\NUnit\lib\nunit.core.interfaces.dll</FullName>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FB-D4-0E-90-EA-AB-B0-1B-C4-12-8E-0A-26-C7-FA-75-AA-39-11-98">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-41-07-55-DF-45-E4-DC-F1-77-4B-40-E2-0C-F2-06-36-B3-3B-FE">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-2A-4C-0C-25-69-3C-E5-E8-8F-0E-35-DB-19-D0-78-0E-D1-10-FA">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-0C-20-89-AF-F2-31-7C-A8-94-D8-F9-8D-89-FC-BE-29-B5-8B-89">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-31-A6-EA-E5-AC-20-AB-29-FA-FB-F0-98-90-32-58-AB-0B-83-7D">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</FullName>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-94-B4-45-1A-A1-ED-F4-34-E6-2B-78-91-D2-12-6C-D2-A0-99-73">
+      <FullName>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll</FullName>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="A5-88-09-48-5E-0F-5A-EF-4F-F6-2B-FF-47-E3-8A-C1-16-F6-FD-2B">
+      <Summary numSequencePoints="12" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="58.33" branchCoverage="66.67" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+      <FullName>C:\Users\Sercop-Admin\AppData\Local\Temp\nunit20\ShadowCopyCache\7876_636516243094103346\Tests_14307756\assembly\dl3\b8c1e41a\bf82a148_398ed301\holaMundo.exe</FullName>
+      <ModuleName>holaMundo</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\Program.cs" />
+        <File uid="2" fullPath="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\Suma.cs" />
+        <File uid="3" fullPath="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\holaMundo\SumaTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>holaMundo.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void holaMundo.Program::Main(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="16" sc="3" el="16" ec="4" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="1" sl="17" sc="4" el="17" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="12" sl="21" sc="4" el="21" ec="54" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="23" sl="22" sc="4" el="22" ec="26" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="5" ordinal="4" offset="30" sl="23" sc="3" el="23" ec="4" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="16" sc="3" el="16" ec="4" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void holaMundo.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="6" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>holaMundo.Suma</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Int32 holaMundo.Suma::sumaDosNumeros(System.Int32,System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="7" ordinal="0" offset="0" sl="18" sc="42" el="18" ec="43" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="8" ordinal="1" offset="1" sl="19" sc="5" el="19" ec="18" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="9" ordinal="2" offset="7" sl="20" sc="3" el="20" ec="4" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="7" ordinal="0" offset="0" sl="18" sc="42" el="18" ec="43" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void holaMundo.Suma::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="10" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>holaMundo.SumaTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void holaMundo.SumaTest::TestMethod()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="11" ordinal="0" offset="0" sl="20" sc="3" el="20" ec="4" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="12" ordinal="1" offset="1" sl="22" sc="4" el="22" ec="29" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="13" ordinal="2" offset="7" sl="23" sc="4" el="23" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="14" ordinal="3" offset="22" sl="24" sc="3" el="24" ec="4" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="11" ordinal="0" offset="0" sl="20" sc="3" el="20" ec="4" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void holaMundo.SumaTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="15" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="42-83-FE-A6-9F-01-8E-2C-E8-41-E9-25-3E-1E-0D-99-81-76-6B-C9">
+      <FullName>C:\Users\Sercop-Admin\AppData\Local\Temp\nunit20\ShadowCopyCache\7876_636516243094103346\Tests_14307756\assembly\dl3\1b269b51\00a70f1f_1740d101\nunit.framework.dll</FullName>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
