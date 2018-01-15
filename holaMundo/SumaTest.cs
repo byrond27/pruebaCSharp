@@ -16,43 +16,103 @@ namespace holaMundo
 	public class SumaTest
 	{
 		[Test]
-		public void sumaDosNumerosTrue()
-		{
-			// TODO: Add your test.
-			var prueba = new Suma();
-			Assert.AreEqual(4,prueba.sumaDosNumeros(2,2));
-		}
-		
-		[Test]
-		public void sumaDosNumerosUnoNegativoTrue()
-		{
-			// TODO: Add your test.
-			var prueba = new Suma();
-			Assert.AreEqual(0,prueba.sumaDosNumeros(-2,2));
-		}
-		
-		[Test]
-		public void sumaDosNumerosNegativoTrue()
-		{
-			// TODO: Add your test.
-			var prueba = new Suma();
-			Assert.AreEqual(-2,prueba.sumaDosNumeros(-4,2));
-		}
-		
-		[Test]
-		public void sumaDeNNumerosTrue()
+		public void Suma_DosNumeros_True()
 		{
 			// TODO: Add your test.
 			
-	// arrange  
-    // act  
-    // assert  
+			// arrange  
+			int expected = 4;
+			var prueba = new Suma();
+		    // act  
+		    var actual = prueba.sumaDosNumeros(2,2);
+		    // assert
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Suma_DosNumerosUnoNegativo_True()
+		{
+			// TODO: Add your test.
+			
+			// arrange  
+			int expected = 0;
+			var prueba = new Suma();
+		    // act  
+			var actual = prueba.sumaDosNumeros(-2,2);
+		    // assert
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Suma_DosNumerosNegativo_True()
+		{
+			// TODO: Add your test.
+			
+			// arrange  
+			int expected = -2;
+			var prueba = new Suma();
+		    // act  
+		    var actual = prueba.sumaDosNumeros(-4,2);
+		    // assert
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Suma_DeNNumeros_True()
+		{
+			// TODO: Add your test.
+			  
 			// arrange
 			int [] numeros = new int[5] {1,1,1,1,1};
 			int expected = 5;
-			// act 
 			var prueba = new Suma();
+			// act
 			var actual = prueba.sumaDeNNumeros(numeros);
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Suma_DeNNumerosPositivosNegativos_True()
+		{
+			// TODO: Add your test.
+			  
+			// arrange
+			int [] numeros = new int[5] {1,-1,-1,-1,2};
+			int expected = 0;
+			var prueba = new Suma();
+			// act 
+			var actual = prueba.sumaDeNNumeros(numeros);
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Max_DeNNumeros_true()
+		{
+			// TODO: Add your test.
+			  
+			// arrange
+			int [] numeros = new int[5] {1,100,3,4,5};
+			int expected = 100;
+			var prueba = new Suma();
+			// act 
+			var actual = prueba.maxNumero(numeros);
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Max_DeNNumerosNegativos_true()
+		{
+			// TODO: Add your test.
+			  
+			// arrange
+			int [] numeros = new int[5] {-1,-100,-3,-4,-5};
+			int expected = -1;
+			var prueba = new Suma();
+			// act 
+			var actual = prueba.maxNumero(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}

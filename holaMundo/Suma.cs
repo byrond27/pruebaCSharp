@@ -26,11 +26,22 @@ namespace holaMundo
 				return 0;
 			}
 			else{
-				for(int i = 0; i < numeros.Length;i++){
+				for(int i = 0; i < numeros.Length; i++){
 					totalSuma = totalSuma + numeros[i];
 				}				
 			}
 			return totalSuma;
+		}
+		
+		public int maxNumero(int [] numeros){
+			var maximo = numeros[0];
+			for (int i = 0; i < numeros.Length; i++){
+				if(maximo < numeros[i]){
+					maximo = numeros[i];
+				}
+			}
+			
+			return maximo;
 		}
 
 	}
