@@ -1,0 +1,7 @@
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\prueba.exe.config
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\prueba.exe
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\prueba.pdb
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\NUnit.Framework.dll
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\obj\Debug\prueba.csprojResolveAssemblyReference.cache
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\obj\Debug\prueba.exe
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\obj\Debug\prueba.pdb

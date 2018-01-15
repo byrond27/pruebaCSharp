@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace holaMundo
+namespace prueba
 {
 	class Program
 	{
