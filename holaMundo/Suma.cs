@@ -40,9 +40,16 @@ namespace holaMundo
 					maximo = numeros[i];
 				}
 			}
-			
 			return maximo;
 		}
-
+		public int minNumero(int [] numeros){
+			var maximo = numeros[0];
+			for (int i = 0; i < numeros.Length; i++){
+				if(maximo > numeros[i]){
+					maximo = numeros[i];
+				}
+			}
+			return maximo;
+		}
 	}
 }

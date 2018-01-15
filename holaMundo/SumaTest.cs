@@ -116,5 +116,21 @@ namespace holaMundo
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
+		
+		[Test]
+		public void Min_DeNNumerosPositivos_true()
+		{
+			// TODO: Add your test.
+			  
+			// arrange
+			int [] numeros = new int[6] {5,1,3,5,0,100};
+			int expected = 0;
+			var prueba = new Suma();
+			// act 
+			var actual = prueba.minNumero(numeros);
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
+		
 	}
 }
