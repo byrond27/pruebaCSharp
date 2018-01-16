@@ -55,7 +55,7 @@ namespace holaMundo
 		public void Suma_DeNNumeros_True()
 		{
 			// arrange
-			int [] numeros = new int[] {1,1,1,1,1};
+			var numeros = new int[] {1,1,1,1,1};
 			int expected = 5;
 			var prueba = new Suma();
 			// act
@@ -68,7 +68,7 @@ namespace holaMundo
 		public void Suma_DeNNumerosPositivosNegativos_True()
 		{
 			// arrange
-			int [] numeros = new int[] {1,-1,-1,-1,2};
+			var numeros = new int[] {1,-1,-1,-1,2};
 			int expected = 0;
 			var prueba = new Suma();
 			// act 
@@ -81,7 +81,7 @@ namespace holaMundo
 		public void Suma_SinNUmeros_True()
 		{
 			// arrange
-			int [] numeros = new int[] {0};
+			var numeros = new int[] {0};
 			int expected = 0;
 			var prueba = new Suma();
 			// act 
@@ -94,7 +94,7 @@ namespace holaMundo
 		public void Max_DeNNumeros_true()
 		{
 			// arrange
-			int [] numeros = new int[] {1,100,3,4,5};
+			var numeros = new int[] {1,100,3,4,5};
 			int expected = 100;
 			var prueba = new Suma();
 			// act 
@@ -107,7 +107,7 @@ namespace holaMundo
 		public void Max_DeNNumerosNegativos_true()
 		{
 			// arrange
-			int [] numeros = new int[] {-1,-100,-3,-4,-5};
+			var numeros = new int[] {-1,-100,-3,-4,-5};
 			int expected = -1;
 			var prueba = new Suma();
 			// act 
@@ -120,7 +120,7 @@ namespace holaMundo
 		public void Min_DeNNumerosPositivos_true()
 		{
 			// arrange
-			int [] numeros = new int[] {5,1,3,5,0,100};
+			var numeros = new int[] {5,1,3,5,0,100};
 			int expected = 0;
 			var prueba = new Suma();
 			// act 
@@ -133,8 +133,8 @@ namespace holaMundo
 		public void Sort_BubbleSortMenorAMayor_true()
 		{
 			// arrange
-			int [] numeros = new int[] {5,1,3,5,0,100};
-			int [] expected = new int[]{0,1,3,5,5,100};
+			var numeros = new int[] {5,1,3,5,0,100};
+			var expected = new int[]{0,1,3,5,5,100};
 			var prueba = new Suma();
 			// act 
 			var actual = prueba.bubbleSortMenorAMayor(numeros);
@@ -146,8 +146,8 @@ namespace holaMundo
 		public void Sort_BubbleSortMayorAMenor_true()
 		{
 			// arrange
-			int [] numeros = new int[] {5,1,3,5,0,100};
-			int [] expected = new int[]{100,5,5,3,1,0};
+			var numeros = new int[] {5,1,3,5,0,100};
+			var expected = new int[]{100,5,5,3,1,0};
 			var prueba = new Suma();
 			// act 
 			var actual = prueba.bubbleSortMayorAMenor(numeros);
