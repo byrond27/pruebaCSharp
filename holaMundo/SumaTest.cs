@@ -154,5 +154,35 @@ namespace holaMundo
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
+		
+		[Test]
+		public void Numero_Fibonnaci_True()
+		{
+			// arrange
+			int numero = 6;
+			int expected = 8;
+			var prueba = new Suma();
+
+			// act
+			var actual = prueba.fibonacci(numero);
+
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Numero_Factorial_True()
+		{
+			// arrange
+			int numero = 5;
+			int expected = 120;
+			var prueba = new Suma();
+
+			// act
+			var actual = prueba.factorial(numero);
+
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
 	}
 }

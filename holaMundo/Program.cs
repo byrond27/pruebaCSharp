@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace prueba
+namespace holaMundo
 {
 	class Program
 	{
@@ -16,6 +16,11 @@ namespace prueba
 		{
 			Console.WriteLine("Hello World!");
 			
+			var prueba = new Suma();
+			
+        	for (int i = 0; i < 6; i++){
+            	Console.WriteLine(prueba.fibonacci(i));
+        		}
 			// TODO: Implement Functionality Here
 			
 			Console.Write("Press any key to continue . . . ");

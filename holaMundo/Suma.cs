@@ -80,6 +80,22 @@ namespace holaMundo
 			}
 			return numeros;
 		}
+		
+		public int fibonacci(int numero){
+			if (numero == 0 || numero == 1){
+				return numero;
+			}
+   		 	return fibonacci(numero - 2) + fibonacci(numero - 1);
+	
+       }
+		
+		public int factorial(int numero){
+			if(numero == 1){
+				return 1;
+			}
+			return numero * factorial(numero - 1);
+		
+       }
 
 	}
 }
