@@ -8,17 +8,17 @@
  */
 using System;
 
-namespace holaMundo
+namespace Hola
 {
 	class Program
 	{
-		public static void Main(string[] args)
+		public static void Main()
 		{
 		
 			var prueba = new Suma();
 			
         	for (int i = 0; i < 6; i++){
-            	Console.WriteLine(prueba.fibonacci(i));
+            	Console.WriteLine(prueba.Fibonacci(i));
         		}
 			// TODO: Implement Functionality Here
 			

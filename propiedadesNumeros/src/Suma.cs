@@ -8,18 +8,18 @@
  */
 using System;
 
-namespace holaMundo
+namespace Hola
 {
 	/// <summary>
 	/// Description of Suma.
 	/// </summary>
 	public class Suma
 	{
-		public int sumaDosNumeros(int a, int b){
-				return a + b;
+		public int SumaDosNumeros(int numero1, int numero2){
+				return numero1 + numero2;
 		}
 		
-		public int sumaDeNNumeros(int [] numeros){
+		public int SumaDeNNumeros(int [] numeros){
 			var totalSuma = 0;
 			if(numeros.Length == 0)
 			{
@@ -33,7 +33,7 @@ namespace holaMundo
 			return totalSuma;
 		}
 		
-		public int maxNumero(int [] numeros){
+		public int MaxNumero(int [] numeros){
 			var maximo = numeros[0];
 			for (int i = 0; i < numeros.Length; i++){
 				if(maximo < numeros[i]){
@@ -43,7 +43,7 @@ namespace holaMundo
 			return maximo;
 		}
 		
-		public int minNumero(int [] numeros){
+		public int MinNumero(int [] numeros){
 			var minimo = numeros[0];
 			for (int i = 0; i < numeros.Length; i++){
 				if(minimo > numeros[i]){
@@ -53,7 +53,7 @@ namespace holaMundo
 			return minimo;
 		}
 		
-		public int[] bubbleSortMenorAMayor(int [] numeros){
+		public int[] BubbleSortMenorAMayor(int [] numeros){
 			int temp = 0;
 			for (int write = 0; write < numeros.Length; write++) {
 			    for (int sort = 0; sort < numeros.Length - 1; sort++) {
@@ -67,7 +67,7 @@ namespace holaMundo
 			return numeros;
 		}
 		
-		public int[] bubbleSortMayorAMenor(int [] numeros){
+		public int[] BubbleSortMayorAMenor(int [] numeros){
 			int temp = 0;
 			for (int write = 0; write < numeros.Length; write++) {
 			    for (int sort = 0; sort < numeros.Length - 1; sort++) {
@@ -81,7 +81,7 @@ namespace holaMundo
 			return numeros;
 		}
 		
-		public int fibonacci(int numero){
+		public int Fibonacci(int numero){
 			if (numero < 0) {
 				return 0;
 			}
@@ -90,11 +90,11 @@ namespace holaMundo
 				return numero;
 				}
 			}
-   		 	return fibonacci(numero - 2) + fibonacci(numero - 1);
+   		 	return Fibonacci(numero - 2) + Fibonacci(numero - 1);
 	
        }
 		
-		public int factorial(int numero){
+		public int Factorial(int numero){
 			if (numero < 0) {
 				return 0;
 			}
@@ -103,7 +103,7 @@ namespace holaMundo
 				return 1;
 				}
 			}
-			return numero * factorial(numero - 1);
+			return numero * Factorial(numero - 1);
 		
        }
 

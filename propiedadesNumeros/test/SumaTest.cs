@@ -10,7 +10,7 @@ using System;
 using NUnit.Framework;
 
 
-namespace holaMundo
+namespace Hola
 {
 	[TestFixture]
 	public class SumaTest
@@ -22,7 +22,7 @@ namespace holaMundo
 			int expected = 4;
 			var prueba = new Suma();
 		    // act  
-		    var actual = prueba.sumaDosNumeros(2,2);
+		    var actual = prueba.SumaDosNumeros(2,2);
 		    // assert
 			Assert.AreEqual(expected,actual);
 		}
@@ -34,7 +34,7 @@ namespace holaMundo
 			int expected = 0;
 			var prueba = new Suma();
 		    // act  
-			var actual = prueba.sumaDosNumeros(-2,2);
+			var actual = prueba.SumaDosNumeros(-2,2);
 		    // assert
 			Assert.AreEqual(expected,actual);
 		}
@@ -46,7 +46,7 @@ namespace holaMundo
 			int expected = -2;
 			var prueba = new Suma();
 		    // act  
-		    var actual = prueba.sumaDosNumeros(-4,2);
+		    var actual = prueba.SumaDosNumeros(-4,2);
 		    // assert
 			Assert.AreEqual(expected,actual);
 		}
@@ -59,7 +59,7 @@ namespace holaMundo
 			int expected = 5;
 			var prueba = new Suma();
 			// act
-			var actual = prueba.sumaDeNNumeros(numeros);
+			var actual = prueba.SumaDeNNumeros(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -72,7 +72,7 @@ namespace holaMundo
 			int expected = 0;
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.sumaDeNNumeros(numeros);
+			var actual = prueba.SumaDeNNumeros(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -85,7 +85,7 @@ namespace holaMundo
 			int expected = 0;
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.sumaDeNNumeros(numeros);
+			var actual = prueba.SumaDeNNumeros(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -98,7 +98,7 @@ namespace holaMundo
 			int expected = 100;
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.maxNumero(numeros);
+			var actual = prueba.MaxNumero(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -111,7 +111,7 @@ namespace holaMundo
 			int expected = -1;
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.maxNumero(numeros);
+			var actual = prueba.MaxNumero(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -124,7 +124,7 @@ namespace holaMundo
 			int expected = 0;
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.minNumero(numeros);
+			var actual = prueba.MinNumero(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -137,7 +137,7 @@ namespace holaMundo
 			var expected = new int[]{0,1,3,5,5,100};
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.bubbleSortMenorAMayor(numeros);
+			var actual = prueba.BubbleSortMenorAMayor(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -150,7 +150,7 @@ namespace holaMundo
 			var expected = new int[]{100,5,5,3,1,0};
 			var prueba = new Suma();
 			// act 
-			var actual = prueba.bubbleSortMayorAMenor(numeros);
+			var actual = prueba.BubbleSortMayorAMenor(numeros);
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
@@ -164,7 +164,7 @@ namespace holaMundo
 			var prueba = new Suma();
 
 			// act
-			var actual = prueba.fibonacci(numero);
+			var actual = prueba.Fibonacci(numero);
 
 			// assert 
 			Assert.AreEqual(expected,actual);
@@ -179,7 +179,7 @@ namespace holaMundo
 			var prueba = new Suma();
 
 			// act
-			var actual = prueba.fibonacci(numero);
+			var actual = prueba.Fibonacci(numero);
 
 			// assert 
 			Assert.AreEqual(expected,actual);
@@ -194,7 +194,7 @@ namespace holaMundo
 			var prueba = new Suma();
 
 			// act
-			var actual = prueba.factorial(numero);
+			var actual = prueba.Factorial(numero);
 
 			// assert 
 			Assert.AreEqual(expected,actual);
@@ -209,7 +209,7 @@ namespace holaMundo
 			int expected = 0;
 
 			// act
-			var actual = prueba.factorial(numero);
+			var actual = prueba.Factorial(numero);
 
 			// assert 
 			Assert.AreEqual(expected,actual);

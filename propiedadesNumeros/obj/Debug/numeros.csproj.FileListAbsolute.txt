@@ -9,6 +9,5 @@ C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedade
 C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\bin\Debug\numeros.exe
 C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\bin\Debug\numeros.pdb
 C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\bin\Debug\NUnit.Framework.dll
-C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\obj\Debug\numeros.csprojResolveAssemblyReference.cache
 C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\obj\Debug\numeros.exe
 C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\obj\Debug\numeros.pdb
