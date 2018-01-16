@@ -169,6 +169,21 @@ namespace holaMundo
 			// assert 
 			Assert.AreEqual(expected,actual);
 		}
+
+		[Test]
+		public void Numero_Fibonnaci_False()
+		{
+			// arrange
+			int numero = -1;
+			int expected = 0;
+			var prueba = new Suma();
+
+			// act
+			var actual = prueba.fibonacci(numero);
+
+			// assert 
+			Assert.AreEqual(expected,actual);
+		}
 		
 		[Test]
 		public void Numero_Factorial_True()
@@ -183,6 +198,22 @@ namespace holaMundo
 
 			// assert 
 			Assert.AreEqual(expected,actual);
+		}
+		
+		[Test]
+		public void Numero_Factorial_False()
+		{
+			// arrange
+			int numero = -1;
+			var prueba = new Suma();
+			int expected = 0;
+
+			// act
+			var actual = prueba.factorial(numero);
+
+			// assert 
+			Assert.AreEqual(expected,actual);
+
 		}
 	}
 }
