@@ -1,0 +1,7 @@
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\numeros.exe.config
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\numeros.exe
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\numeros.pdb
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\bin\Debug\NUnit.Framework.dll
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\obj\Debug\numeros.csprojResolveAssemblyReference.cache
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\obj\Debug\numeros.exe
+C:\Users\Sercop-Admin\Documents\SharpDevelop Projects\holaMundo\pruebaCSharp\holaMundo\obj\Debug\numeros.pdb
