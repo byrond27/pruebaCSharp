@@ -82,7 +82,9 @@ namespace holaMundo
 		}
 		
 		public int fibonacci(int numero){
-			if (numero < 0) return 0;
+			if (numero < 0) {
+				return 0;
+			}
 			else {
 			if (numero == 0 || numero == 1){
 				return numero;
