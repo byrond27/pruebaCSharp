@@ -93,7 +93,9 @@ namespace holaMundo
        }
 		
 		public int factorial(int numero){
-			if (numero < 0) return 0;
+			if (numero < 0) {
+				return 0;
+			}
 			else {
 			if(numero == 1){
 				return 1;

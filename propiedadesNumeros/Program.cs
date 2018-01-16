@@ -14,8 +14,7 @@ namespace holaMundo
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
+		
 			var prueba = new Suma();
 			
         	for (int i = 0; i < 6; i++){
