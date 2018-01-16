@@ -42,14 +42,44 @@ namespace holaMundo
 			}
 			return maximo;
 		}
+		
 		public int minNumero(int [] numeros){
-			var maximo = numeros[0];
+			var minimo = numeros[0];
 			for (int i = 0; i < numeros.Length; i++){
-				if(maximo > numeros[i]){
-					maximo = numeros[i];
+				if(minimo > numeros[i]){
+					minimo = numeros[i];
 				}
 			}
-			return maximo;
+			return minimo;
 		}
+		
+		public int[] bubbleSortMenorAMayor(int [] numeros){
+			int temp = 0;
+			for (int write = 0; write < numeros.Length; write++) {
+			    for (int sort = 0; sort < numeros.Length - 1; sort++) {
+			        if (numeros[sort] > numeros[sort + 1]) {
+			            temp = numeros[sort + 1];
+			            numeros[sort + 1] = numeros[sort];
+			            numeros[sort] = temp;
+			        }
+			    }
+			}
+			return numeros;
+		}
+		
+		public int[] bubbleSortMayorAMenor(int [] numeros){
+			int temp = 0;
+			for (int write = 0; write < numeros.Length; write++) {
+			    for (int sort = 0; sort < numeros.Length - 1; sort++) {
+			        if (numeros[sort] < numeros[sort + 1]) {
+			            temp = numeros[sort + 1];
+			            numeros[sort + 1] = numeros[sort];
+			            numeros[sort] = temp;
+			        }
+			    }
+			}
+			return numeros;
+		}
+
 	}
 }
