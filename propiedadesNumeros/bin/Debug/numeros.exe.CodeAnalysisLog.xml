@@ -6,13 +6,13 @@
    <Modules>
     <Module Name="numeros.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'numeros.exe' with a strong name key.</Issue>
       </Message>
-      <Message Id="numeros" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
+      <Message Id="numeros" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'numeros' in assembly name 'numeros.exe' by changing it to 'Numeros'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Mark 'numeros.exe' with CLSCompliant(true) because it exposes externally visible types.</Issue>
       </Message>
      </Messages>
@@ -23,46 +23,46 @@
          <Members>
           <Member Name="#BubbleSortMayorAMenor(System.Int32[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="70">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.BubbleSortMayorAMenor(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="71">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.BubbleSortMayorAMenor(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#BubbleSortMenorAMayor(System.Int32[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="56">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.BubbleSortMenorAMayor(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="57">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.BubbleSortMenorAMayor(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MaxNumero(System.Int32[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="36">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.MaxNumero(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="37">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.MaxNumero(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MinNumero(System.Int32[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="46">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.MinNumero(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="47">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.MinNumero(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SumaDeNNumeros(System.Int32[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="22">Correct the casing of 'De' in member name 'Suma.SumaDeNNumeros(int[])' by changing it to 'DE'.</Issue>
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="23">Correct the casing of 'De' in member name 'Suma.SumaDeNNumeros(int[])' by changing it to 'DE'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="22">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.SumaDeNNumeros(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="23">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.SumaDeNNumeros(int[])' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SumaDosNumeros(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="18">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.SumaDosNumeros(int, int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\src" File="Suma.cs" Line="19">The 'this' parameter (or 'Me' in Visual Basic) of 'Suma.SumaDosNumeros(int, int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -72,181 +72,181 @@
          <Members>
           <Member Name="#Max_DeNNumeros_true()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="95">Correct the casing of 'De' in member name 'SumaTest.Max_DeNNumeros_true()' by changing it to 'DE'.</Issue>
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="97">Correct the casing of 'De' in member name 'SumaTest.Max_DeNNumeros_true()' by changing it to 'DE'.</Issue>
             </Message>
-            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="95">Correct the casing of 'true' in member name 'SumaTest.Max_DeNNumeros_true()' by changing it to 'True'.</Issue>
+            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="97">Correct the casing of 'true' in member name 'SumaTest.Max_DeNNumeros_true()' by changing it to 'True'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="95">Remove the underscores from member name 'SumaTest.Max_DeNNumeros_true()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="97">Remove the underscores from member name 'SumaTest.Max_DeNNumeros_true()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="95">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Max_DeNNumeros_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="97">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Max_DeNNumeros_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Max_DeNNumerosNegativos_true()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="108">Correct the casing of 'De' in member name 'SumaTest.Max_DeNNumerosNegativos_true()' by changing it to 'DE'.</Issue>
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="110">Correct the casing of 'De' in member name 'SumaTest.Max_DeNNumerosNegativos_true()' by changing it to 'DE'.</Issue>
             </Message>
-            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="108">Correct the casing of 'true' in member name 'SumaTest.Max_DeNNumerosNegativos_true()' by changing it to 'True'.</Issue>
+            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="110">Correct the casing of 'true' in member name 'SumaTest.Max_DeNNumerosNegativos_true()' by changing it to 'True'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="108">Remove the underscores from member name 'SumaTest.Max_DeNNumerosNegativos_true()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="110">Remove the underscores from member name 'SumaTest.Max_DeNNumerosNegativos_true()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="108">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Max_DeNNumerosNegativos_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="110">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Max_DeNNumerosNegativos_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Min_DeNNumerosPositivos_true()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="121">Correct the casing of 'De' in member name 'SumaTest.Min_DeNNumerosPositivos_true()' by changing it to 'DE'.</Issue>
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="123">Correct the casing of 'De' in member name 'SumaTest.Min_DeNNumerosPositivos_true()' by changing it to 'DE'.</Issue>
             </Message>
-            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="121">Correct the casing of 'true' in member name 'SumaTest.Min_DeNNumerosPositivos_true()' by changing it to 'True'.</Issue>
+            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="123">Correct the casing of 'true' in member name 'SumaTest.Min_DeNNumerosPositivos_true()' by changing it to 'True'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="121">Remove the underscores from member name 'SumaTest.Min_DeNNumerosPositivos_true()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="123">Remove the underscores from member name 'SumaTest.Min_DeNNumerosPositivos_true()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="121">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Min_DeNNumerosPositivos_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="123">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Min_DeNNumerosPositivos_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Numero_Factorial_False()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="205">Remove the underscores from member name 'SumaTest.Numero_Factorial_False()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="207">Remove the underscores from member name 'SumaTest.Numero_Factorial_False()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="205">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Factorial_False()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="207">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Factorial_False()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Numero_Factorial_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="190">Remove the underscores from member name 'SumaTest.Numero_Factorial_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="192">Remove the underscores from member name 'SumaTest.Numero_Factorial_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="190">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Factorial_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="192">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Factorial_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Numero_Fibonnaci_False()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="175">Remove the underscores from member name 'SumaTest.Numero_Fibonnaci_False()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="177">Remove the underscores from member name 'SumaTest.Numero_Fibonnaci_False()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="175">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Fibonnaci_False()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="177">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Fibonnaci_False()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Numero_Fibonnaci_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="160">Remove the underscores from member name 'SumaTest.Numero_Fibonnaci_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="162">Remove the underscores from member name 'SumaTest.Numero_Fibonnaci_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="160">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Fibonnaci_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="162">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Numero_Fibonnaci_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Sort_BubbleSortMayorAMenor_true()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="147">Correct the casing of 'true' in member name 'SumaTest.Sort_BubbleSortMayorAMenor_true()' by changing it to 'True'.</Issue>
+            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="149">Correct the casing of 'true' in member name 'SumaTest.Sort_BubbleSortMayorAMenor_true()' by changing it to 'True'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="147">Remove the underscores from member name 'SumaTest.Sort_BubbleSortMayorAMenor_true()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="149">Remove the underscores from member name 'SumaTest.Sort_BubbleSortMayorAMenor_true()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="147">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Sort_BubbleSortMayorAMenor_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="149">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Sort_BubbleSortMayorAMenor_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Sort_BubbleSortMenorAMayor_true()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="134">Correct the casing of 'true' in member name 'SumaTest.Sort_BubbleSortMenorAMayor_true()' by changing it to 'True'.</Issue>
+            <Message Id="true" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="136">Correct the casing of 'true' in member name 'SumaTest.Sort_BubbleSortMenorAMayor_true()' by changing it to 'True'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="134">Remove the underscores from member name 'SumaTest.Sort_BubbleSortMenorAMayor_true()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="136">Remove the underscores from member name 'SumaTest.Sort_BubbleSortMenorAMayor_true()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="134">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Sort_BubbleSortMenorAMayor_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="136">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Sort_BubbleSortMenorAMayor_true()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Suma_DeNNumeros_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="56">Correct the casing of 'De' in member name 'SumaTest.Suma_DeNNumeros_True()' by changing it to 'DE'.</Issue>
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="58">Correct the casing of 'De' in member name 'SumaTest.Suma_DeNNumeros_True()' by changing it to 'DE'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="56">Remove the underscores from member name 'SumaTest.Suma_DeNNumeros_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="58">Remove the underscores from member name 'SumaTest.Suma_DeNNumeros_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="56">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DeNNumeros_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="58">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DeNNumeros_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Suma_DeNNumerosPositivosNegativos_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="69">Correct the casing of 'De' in member name 'SumaTest.Suma_DeNNumerosPositivosNegativos_True()' by changing it to 'DE'.</Issue>
+            <Message Id="De" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="71">Correct the casing of 'De' in member name 'SumaTest.Suma_DeNNumerosPositivosNegativos_True()' by changing it to 'DE'.</Issue>
             </Message>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="69">Remove the underscores from member name 'SumaTest.Suma_DeNNumerosPositivosNegativos_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="71">Remove the underscores from member name 'SumaTest.Suma_DeNNumerosPositivosNegativos_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="69">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DeNNumerosPositivosNegativos_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="71">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DeNNumerosPositivosNegativos_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Suma_DosNumeros_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="20">Remove the underscores from member name 'SumaTest.Suma_DosNumeros_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="22">Remove the underscores from member name 'SumaTest.Suma_DosNumeros_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="20">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DosNumeros_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="22">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DosNumeros_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Suma_DosNumerosNegativo_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="44">Remove the underscores from member name 'SumaTest.Suma_DosNumerosNegativo_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="46">Remove the underscores from member name 'SumaTest.Suma_DosNumerosNegativo_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="44">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DosNumerosNegativo_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="46">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DosNumerosNegativo_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Suma_DosNumerosUnoNegativo_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="32">Remove the underscores from member name 'SumaTest.Suma_DosNumerosUnoNegativo_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="34">Remove the underscores from member name 'SumaTest.Suma_DosNumerosUnoNegativo_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="32">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DosNumerosUnoNegativo_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="34">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_DosNumerosUnoNegativo_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Suma_SinNUmeros_True()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="82">Remove the underscores from member name 'SumaTest.Suma_SinNUmeros_True()'.</Issue>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="84">Remove the underscores from member name 'SumaTest.Suma_SinNUmeros_True()'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 21:59:20Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="82">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_SinNUmeros_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-01-16 22:25:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\Sercop-Admin\Documents\SharpDevelop Projects\C#\pruebaCSharp\propiedadesNumeros\test" File="SumaTest.cs" Line="84">The 'this' parameter (or 'Me' in Visual Basic) of 'SumaTest.Suma_SinNUmeros_True()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
